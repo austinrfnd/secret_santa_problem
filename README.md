@@ -1,8 +1,8 @@
-= Secret Santa App
+# Secret Santa App
 
 This is an app where given a list of names it will pair a person with a recipient for secret santa.  The main code base is in secret_santa.rb.  The specs live in /spec
 
-== Setup
+## Setup
 
 Install the required gems with bundle:
 
@@ -10,7 +10,7 @@ Install the required gems with bundle:
 bundle
 ```
 
-Instructions:
+## Specs
 
 run rake to run the specs:
 
@@ -47,3 +47,9 @@ Finished in 0.00261 seconds (files took 0.22929 seconds to load)
 4 examples, 4 failures
 
 ```
+
+## Bonus Points
+
+- Solve it in O(n)
+
+
